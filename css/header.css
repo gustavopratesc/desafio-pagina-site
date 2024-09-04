@@ -9,6 +9,11 @@
     padding: 25px;
 }
 .link {
+    /*display: flex;
+    text-align: center;
+    margin: 20px;
+    padding-top: 35px; */
+     
     display: block;
     text-align: center;
     margin: 20px;
