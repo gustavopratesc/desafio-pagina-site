@@ -1,0 +1,30 @@
+
+#titulo_principal {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    padding: 25px;
+}
+.link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding-top: 35px;
+}
+.link > a {
+    font-family: KD2, Arial, Helvetica, sans-serif;
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+.link > a:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+

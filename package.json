@@ -1,0 +1,11 @@
+{
+  "name": "desafio-pagina-site",
+  "version": "1.0.0",
+  "description": "Desafiado por Amanda Prates Caetano a fazer um layout basico de uma pagina.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Prates Caetano",
+  "license": "ISC"
+}

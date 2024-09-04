@@ -1,0 +1,55 @@
+.subtitulo01 {
+    text-align: center;
+    font-family: KD2, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.subtitulo02 {
+    text-align: center;
+    font-family: KD2, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 80px;
+}
+main {
+    border: 3px solid #e7e6e6;
+    margin-top: 100px;
+    box-shadow: 1px 0px 3px 4px rgb(235, 235, 235);
+}
+
+.container {
+    display: flex;    
+}
+.container > div {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    height: 290px;
+    width: 204px;
+    padding: 4px;
+    margin: auto;
+    text-align: center;
+    font-family: KD2, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.container div > .preços {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.container div > .compra {
+    color: rgb(255, 255, 255);
+    background-color: #000284;
+    font-family: KD2, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px;
+    width: 172px;
+    border: 1px;
+    border-radius: 10px;
+    border-color: #000284;
+    margin-top: 20px;
+}
+.container div > .compra:hover {
+    background-color: #383bf9;
+}
