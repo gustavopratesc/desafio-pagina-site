@@ -12,6 +12,7 @@
     font-weight: 800;
     font-size: 20px;
     margin-top: 80px;
+    margin-bottom: 40px;
 }
 main {
     border: 3px solid #e7e6e6;
@@ -27,7 +28,7 @@ main {
     border-radius: 5px;
     height: 290px;
     width: 204px;
-    padding: 4px;
+    padding: 6px;
     margin: auto;
     text-align: center;
     font-family: KD2, Arial, Helvetica, sans-serif;
@@ -52,4 +53,34 @@ main {
 }
 .container div > .compra:hover {
     background-color: #383bf9;
+}
+.conteudo .bloco-1 {
+    display: flex;
+}
+.conteudo .bloco-1 > .primeira-imagem01 {
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.conteudo .bloco-1 > .paragrafo01 {
+    margin-left: 50px;
+    width: 558px;
+    text-align: justify;
+    font-family: KD2, Arial, Helvetica, sans-serif;
+}
+.conteudo .bloco-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.conteudo .bloco-2 > .segunda-imagem02 {
+    display: block;
+    text-align: right;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+.conteudo .bloco-2 > .paragrafo02 {
+    margin-right: 50px;
+    width: 321px;
+    text-align: justify;
+    font-family: KD2, Arial, Helvetica, sans-serif;
 }
