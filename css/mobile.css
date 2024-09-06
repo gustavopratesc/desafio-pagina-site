@@ -1,0 +1,108 @@
+/*@media (max-width: 380px) {
+    #titulo_principal {
+        
+        margin: auto;
+    }
+    .link {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        width: 395px;
+    }
+    .container {
+        display: block;
+    }
+    .container > div {
+        height: 200px;
+        width: 140px;
+        padding: 5px;
+    }
+
+    /* Aplica estilos apenas para telas com largura máxima de 768px (típico de tablets e celulares) */
+    @media only screen and (max-width: 768px) {
+    /* Título principal */
+    #titulo_principal {
+        font-size: 12px;  /* Reduzindo o tamanho da fonte */
+        padding: 15px;
+    }
+
+    /* Container de links */
+    .link {
+        display: block;  /* Mantendo o menu em bloco para telas menores */
+        text-align: center;
+        padding: 10px;
+    }
+    .link > a {
+        display: block;  /* Colocando os links um abaixo do outro */
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    /* Vitrine de produtos */
+    .container {
+        display: block;  /* Cada produto ocupa uma linha */
+    }
+    .container > div {
+        width: 100%;  /* Os itens ocupam toda a largura da tela */
+        margin-bottom: 20px;  /* Adiciona espaço entre os itens */
+    }
+
+    /* Ajustando as imagens para que ocupem 100% da largura de seu contêiner */
+    .container > div img {
+        width: 50%;
+        height: 150px;
+    }
+
+    /* Conteúdo principal */
+    .conteudo .bloco-1, .conteudo .bloco-2 {
+        display: block;  /* Faz com que os blocos fiquem em coluna */
+        text-align: center;
+    }
+
+    .conteudo .bloco-1 > .primeira-imagem01, 
+    .conteudo .bloco-2 > .segunda-imagem02 {
+        margin-left: 0;  /* Remove margens para centralizar */
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .conteudo .bloco-2 .segunda-imagem02 > img {
+        width: 322px;
+        margin-right: 29px;
+        margin-top: 20px;
+    }
+
+    .conteudo .bloco-1 > .paragrafo01, 
+    .conteudo .bloco-2 > .paragrafo02 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;  /* Ajusta o texto para caber melhor em telas pequenas */
+        text-align: justify;
+        margin: auto;
+    }
+    .conteudo .bloco-2 > .paragrafo02 {
+        margin-bottom: 10px;
+    }
+    /* Final logo */
+    .final_logo img {
+        width: 100%;  /* A imagem vai ocupar toda a largura disponível */
+    }
+
+    /* Footer */
+    footer {
+        font-size: 12px;
+    }
+    main {
+        width: 381px;
+    }
+    .conteudo .bloco1 > .primeira-imagem01 {
+        height: 400px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+    }
+}
+
+
